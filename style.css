@@ -1,0 +1,221 @@
+/*--------GLOBAL----------*/
+body {
+  background-color: rgb(227, 195, 126);
+  width: 90%;
+  color: aliceblue;
+  border-color: aliceblue;
+
+  background-image: url(./images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/*--------CONTAINER 1 / HEADER ----------*/
+section {
+  background-color: rgb(133, 94, 46);
+  border-color: rgb(233, 233, 233);
+  background-image: url(./images/background-container.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  border: 2px solid;
+  border-radius: 16px;
+  width: 900px;
+  justify-content: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 300px;
+}
+
+.container-header {
+  width: 100%;
+  height: 150px;
+  max-height: 180px;
+  flex-shrink: 0;
+}
+
+.container-header img {
+  width: 600px;
+  margin-left: 150px;
+  height: 100px;
+  margin-top: 25px;
+  display: block;
+}
+
+h1 {
+  position: absolute;
+  top: 4%;
+  font-size: 48px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+.small-text p {
+  margin-top: -25px;
+  font-size: 28px;
+}
+
+p {
+  margin: 2px 0;
+}
+
+/*-----CONTAINER 2 STYLING----*/
+
+.container-2 {
+  background-color: rgb(133, 94, 46);
+  border-color: rgb(233, 233, 233);
+
+  background-image: url(./images/background-container.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  width: 900px;
+  justify-content: center;
+  display: flex;
+  height: 900px;
+  margin: auto;
+  margin-top: 20px;
+  margin-left: 300px;
+}
+
+.container-2 .left-image {
+  width: 300px;
+  height: auto;
+}
+
+
+/*-----Container with left image -----*/
+.megusta {
+  background-image: url(./images/background-container.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  top: 260px;
+  left: 30px;
+  position: absolute;
+  width: 300px;
+}
+
+ul,
+.megusta img {
+  margin-top: -25px;
+}
+
+ul {
+  margin-right: auto;
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.megusta img {
+  margin-top: -40px;
+  justify-content: top;
+  margin-left: -30px;
+  align-self: flex-start;
+}
+
+/*--------BUTTONS---------*/
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px;
+  flex-direction: row;
+}
+
+.buttons button {
+  border-radius: 80px;
+  background-color: rgba(255, 19, 19, 0.996);
+  color: antiquewhite;
+  border: none;
+
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  width: 100px;
+  flex-direction: row;
+}
+
+button:hover {
+  background-color: rgb(156, 16, 16);
+}
+
+/*----MAIN CONTENT----*/
+
+.poisons {
+  background-image: url(./images/background-container.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px;
+
+  max-width: 500px;
+  top: 260px;
+  left: 360px;
+  position: absolute;
+}
+
+.poisons p {
+  max-width: 450px;
+  padding: 10px;
+}
+
+.poisons h2 {
+  margin-top: auto;
+}
+
+/*-------DREAMWEAVERS DELIGHT-----*/
+
+.headliner h2 {
+  top: 525px;
+  position: absolute;
+  font-size: 36px;
+  left: 375px;
+  z-index: 2;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.headliner img {
+  z-index: 1;
+  width: 250px;
+  left: 440px;
+  top: 500px;
+  position: absolute;
+}
+
+.right-image {
+  width: 500px;
+  height: 900px;
+  position: relative;
+  top: 115px;
+  border-radius: 16px;
+  left: 150px;
+}
+
+.delight {
+  position: absolute;
+  left: 35px;
+  max-width: 900px;
+  width: 850px;
+  top: 520px;
+  height: 250px;
+  padding-bottom: 300px;
+}
+
+.delight-text {
+  left: 30px;
+  top: 125px;
+  font-size: 26px;
+  max-width: 275px;
+  position: absolute;
+}
+
+
+footer , footer p {
+    margin-top: auto;
+    text-align: center;
+
+}
