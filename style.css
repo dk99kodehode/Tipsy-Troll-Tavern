@@ -219,3 +219,12 @@ footer , footer p {
     text-align: center;
 
 }
+
+/*-------CONTACT US-----*/
+
+.contact-us {
+  position: absolute;
+  text-align: center;
+  margin-left: 550px;
+  margin-top: -50px;
+}
