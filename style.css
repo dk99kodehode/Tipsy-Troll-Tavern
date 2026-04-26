@@ -92,13 +92,8 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
 
-<<<<<<< HEAD
   top: 700px;
   left: 35px;
-=======
-  top: 260px;
-  left: 30px;
->>>>>>> 2152d202c8891cce8614207be141fc67314c2778
   position: absolute;
   width: 300px;
 }
@@ -158,16 +153,8 @@ button:hover {
   padding: 10px;
 
   max-width: 500px;
-<<<<<<< HEAD
   top: 700px;
-=======
-  top: 260px;
->>>>>>> 2152d202c8891cce8614207be141fc67314c2778
-  left: 360px;
   position: absolute;
-}
-
-.poisons p {
   max-width: 450px;
   padding: 10px;
 }
@@ -179,11 +166,7 @@ button:hover {
 /*-------DREAMWEAVERS DELIGHT-----*/
 
 .headliner h2 {
-<<<<<<< HEAD
   top: 250px;
-=======
-  top: 525px;
->>>>>>> 2152d202c8891cce8614207be141fc67314c2778
   position: absolute;
   font-size: 36px;
   left: 375px;
@@ -213,15 +196,9 @@ button:hover {
   left: 35px;
   max-width: 900px;
   width: 850px;
-<<<<<<< HEAD
   top: 260px;
   height: 250px;
   padding-bottom: 160px;
-=======
-  top: 520px;
-  height: 250px;
-  padding-bottom: 300px;
->>>>>>> 2152d202c8891cce8614207be141fc67314c2778
 }
 
 .delight-text {
@@ -246,7 +223,6 @@ footer , footer p {
   text-align: center;
   margin-left: 550px;
   margin-top: -50px;
-<<<<<<< HEAD
 }
 
 .about {
@@ -260,6 +236,4 @@ footer , footer p {
 .about h1 {
   top: -80px;
   color: aliceblue;
-=======
->>>>>>> 2152d202c8891cce8614207be141fc67314c2778
 }
