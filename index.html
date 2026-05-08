@@ -11,8 +11,8 @@
     <!-- HEADER CONTAINER -->
     <header>
       <section class="container">
-        <h1>TIPSY TROLL TAVERN</h1>
         <div class="container-header">
+          <h1>TIPSY TROLL TAVERN</h1>
           <img src="./images/header.png" alt="scroll-header" />
         </div>
 
@@ -21,20 +21,19 @@
         </div>
 
         <nav>
-          <div class="buttons">
-            <button>Drinks</button>
-            <button>Features</button>
-          </div>
+          <a href="#feature">Feature</a>
+          <a href="#drinks">Drinks</a>
+          <a href="#feedback">Feedback</a>
         </nav>
       </section>
     </header>
 
     <!-- HERO SECTION -->
-    <div class="headliner">
+    <div class="headliner" id="feature">
       <h2>THE BRAND NEW DREAMWEAVERS DELIGHT</h2>
     </div>
 
-    <section class="delight">
+    <section class="delight" id="features">
       <img
         class="right-image"
         src="./images/right-image.png"
@@ -67,7 +66,7 @@
         </section>
 
         <!-- DRINKS MENU -->
-        <section class="megusta">
+        <section class="megusta" id="drinks">
           <img class="left-image" src="./images/drink.png" alt="drinks" />
 
           <ul>
@@ -79,7 +78,7 @@
         </section>
       </section>
 
-      <!---ABOUT US & FOOTER-->
+      <!-------ABOUT US------>
       <section class="about">
         <h1>About us</h1>
         <p>
@@ -94,9 +93,34 @@
         </p>
       </section>
 
-      <div class="contact-us">
-        <p>Want to contact us ? +47 999 999</p>
-      </div>
+      <!-----FEEEDBACK------->
+      <section class="feedback-container" id="feedback">
+        <div class="feedback-top">
+          <h2>We would love to hear your feedback!</h2>
+          <p>Help us improve the tavern!</p>
+        </div>
+        <br />
+
+        <form class="form-container">
+          <div class="form-group">
+            <label for="firstname">First Name</label>
+            <input type="name" id="firstname" placeholder="Magical" required />
+          </div>
+
+          <div class="form-group">
+            <label for="lastname">Last Name</label>
+            <input type="name" id="lastname" placeholder="Friend" required />
+          </div>
+
+          <label for="feedback" class="feedback-label"
+            >What did you like the most?</label
+          ><br />
+          <textarea name="feedback" id="feedback" rows="10"></textarea
+          ><br /><br />
+
+          <input id="submit" type="submit" value="Submit Feedback" />
+        </form>
+      </section>
 
       <footer>Copyrights reserved by Trolls Corporate and by Daniel</footer>
     </main>

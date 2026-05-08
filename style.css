@@ -1,4 +1,9 @@
 /*--------GLOBAL----------*/
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: rgb(227, 195, 126);
   width: 90%;
@@ -10,7 +15,6 @@ body {
   background-size: cover;
 }
 
-
 /*--------CONTAINER 1 / HEADER ----------*/
 section {
   background-color: rgb(133, 94, 46);
@@ -19,9 +23,11 @@ section {
   background-repeat: no-repeat;
   background-size: cover;
 
+  display: flex;
   border: 2px solid;
   border-radius: 16px;
-  width: 900px;
+  width: 60%;
+
   justify-content: flex-start;
   display: flex;
   flex-direction: column;
@@ -38,7 +44,7 @@ section {
 
 .container-header img {
   width: 600px;
-  margin-left: 150px;
+  margin-left: 15%;
   height: 100px;
   margin-top: 25px;
   display: block;
@@ -47,13 +53,13 @@ section {
 h1 {
   position: absolute;
   top: 4%;
+  margin-left: 10%;
   font-size: 48px;
   font-family: Arial, Helvetica, sans-serif;
   color: black;
 }
 
 .small-text p {
-  margin-top: -25px;
   font-size: 28px;
 }
 
@@ -74,9 +80,9 @@ p {
   width: 900px;
   justify-content: center;
   display: flex;
-  height: 900px;
+  height: 1400px;
   margin: auto;
-  margin-top: 20px;
+  margin-top: 5px;
   margin-left: 300px;
 }
 
@@ -84,7 +90,6 @@ p {
   width: 300px;
   height: auto;
 }
-
 
 /*-----Container with left image -----*/
 .megusta {
@@ -117,31 +122,19 @@ ul {
   align-self: flex-start;
 }
 
-/*--------BUTTONS---------*/
-
-.buttons {
+nav {
   display: flex;
-  justify-content: center;
-  gap: 20px;
-  padding: 10px;
-  flex-direction: row;
+  gap: 60px;
 }
 
-.buttons button {
-  border-radius: 80px;
-  background-color: rgba(255, 19, 19, 0.996);
-  color: antiquewhite;
-  border: none;
-
-  padding: 10px;
-  display: flex;
-  justify-content: center;
-  width: 100px;
-  flex-direction: row;
+nav a {
+  text-decoration: none;
+  font-size: 32px;
+  color: rgb(255, 234, 0);
 }
 
-button:hover {
-  background-color: rgb(156, 16, 16);
+nav a:hover {
+  text-decoration: underline;
 }
 
 /*----MAIN CONTENT----*/
@@ -209,11 +202,10 @@ button:hover {
   position: absolute;
 }
 
-
-footer , footer p {
-    margin-top: auto;
-    text-align: center;
-
+footer,
+footer p {
+  margin-top: auto;
+  text-align: center;
 }
 
 /*-------CONTACT US-----*/
@@ -222,18 +214,74 @@ footer , footer p {
   position: absolute;
   text-align: center;
   margin-left: 550px;
-  margin-top: -50px;
+  margin-top: 15%;
 }
 
 .about {
-  top: 970px;
-  margin-left: 400px;
+  top: 1000px;
+  margin-top: 5;
+  margin-left: 25%;
   width: 600px;
   height: 150px;
   position: absolute;
 }
 
 .about h1 {
-  top: -80px;
+  top: -60%;
   color: aliceblue;
+}
+
+/*---------FEEDBACK--------*/
+.feedback-container {
+  position: absolute;
+  top: 1175px;
+  margin-left: 25%;
+  max-width: 600px;
+  height: 450px;
+}
+
+.container {
+  display: flex;
+  margin-top: 2%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.feedback-top {
+  align-items: center;
+  justify-content: center;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  max-width: 400px;
+}
+
+.form-group input {
+  flex: 1;
+}
+
+textarea {
+  resize: none;
+  width: 100%;
+  border-radius: 12px;
+}
+
+.feedback-label {
+  color: rgb(201, 234, 16);
+  font-size: 24px;
+}
+
+input [type="name"],
+[type="name"],
+[type="email"] {
+  width: 400px;
+  margin: 10px;
+  border-radius: 8px;
+}
+
+input[type="submit"] {
+  border-radius: 8px;
+  width: 120px;
 }
