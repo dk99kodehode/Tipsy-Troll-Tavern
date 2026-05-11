@@ -22,7 +22,7 @@ section {
   background-image: url(./images/background-container.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-
+  margin-left: 100px;
   display: flex;
   border: 2px solid;
   border-radius: 16px;
@@ -35,8 +35,14 @@ section {
   margin-left: 300px;
 }
 
+.header-container {
+  width 300px;
+  margin-left: 330px;
+}
+
 .container-header {
   width: 100%;
+
   height: 150px;
   max-height: 180px;
   flex-shrink: 0;
